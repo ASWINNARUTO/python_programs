@@ -1,4 +1,5 @@
-import string
+#program to print rangoli
+import string 
 def print_rangoli(size):
     l=list(string.ascii_lowercase)
     n=len("-".join(l[size-1:0:-1]+l[0:size:]))
